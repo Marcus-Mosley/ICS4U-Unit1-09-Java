@@ -38,7 +38,7 @@ public class MultiArray {
     System.out.println("The random class marks are: ");
     for (int counter = 0; counter < random.length; counter++) {
       for (int counter2 = 0; counter2 < random[counter].length; counter2++) {
-        int randomNumber = 1 + rand.nextInt(99);
+        int randomNumber = rand.nextInt(101);
         if (counter2 == random[counter].length - 1) {
           System.out.println(randomNumber);
         } else {
